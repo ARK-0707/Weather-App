@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* App.css */
+.app {
+    background-image: url('./images/thunder.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .center-div {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  to {
-    transform: rotate(360deg);
+
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-}
+
+  .Search{
+    margin-bottom: 5%;
+  }
+
+  .SearchBar {
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .Searchbtn {
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10px; /* Add some spacing between the input and button */
+    cursor: pointer;
+  }
+
+  .Searchbtn:hover {
+    background-color: black;
+    color: white;
+  }
