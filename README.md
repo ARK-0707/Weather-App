@@ -34,12 +34,15 @@ If you want to run the Weather App locally or make modifications, follow these s
    git clone https://github.com/ark-0707/Weather-App.git
    
 2. Navigate to the project directory:
+   ```bash
    cd Weather-App
 
 3. Install the necessary dependencies:
+   ```bash
    npm install
 
 4. Start the development server:
+   ```bash
    npm start
 
 The application will be accessible in your web browser at http://localhost:3000.
